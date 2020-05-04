@@ -1,0 +1,116 @@
+//fonts import
+
+@font-face {
+	font-family: "uniform-3-regular";
+	src: url("../../fonts/Uniform\ Medium.ttf") format("woff"),
+		url("../../fonts/Uniform\ Medium.ttf") format("opentype"),
+		url("../../fonts/Uniform\ Medium.ttf") format("truetype");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Devonshire&display=swap");
+@font-face {
+	font-family: "caveatregular";
+	src: url("../../fonts/caveat_regular_macroman/caveat-regular-webfont.eot");
+	src: url("../../fonts/caveat_regular_macroman/caveat-regular-webfont.eot?#iefix")
+			format("embedded-opentype"),
+		url("../../fonts/caveat_regular_macroman/caveat-regular-webfont.woff2")
+			format("woff2"),
+		url("../../fonts/caveat_regular_macroman/caveat-regular-webfont.woff")
+			format("woff"),
+		url("../../fonts/caveat_regular_macroman/caveat-regular-webfont.ttf")
+			format("truetype"),
+		url("../../fonts/caveat_regular_macroman/caveat-regular-webfont.svg#caveatregular")
+			format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "ogiremaregular";
+	src: url("../../fonts/Nouveau\ dossier/ogirema-webfont.woff2") format("woff2"),
+		url("../../fonts/Nouveau\ dossier/ogirema-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "ogiremabold";
+	src: url("../../fonts/Nouveau\ dossier/ogiremabold-webfont.woff2")
+			format("woff2"),
+		url("../../fonts/Nouveau\ dossier/ogiremabold-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "ogiremaitalic";
+	src: url("../../fonts/Nouveau\ dossier/ogiremaitalic-webfont.woff2")
+			format("woff2"),
+		url("../../fonts/Nouveau\ dossier/ogiremaitalic-webfont.woff")
+			format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "croissant_oneregular";
+	src: url("../../fonts/Nouveau\ dossier/croissantone-regular-webfont.woff2")
+			format("woff2"),
+		url("../../fonts/Nouveau\ dossier/croissantone-regular-webfont.woff")
+			format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "OPTIJackson";
+	src: url("../../fonts/optijackson/OPTIJackson.ttf.woff") format("woff"),
+		url("../../fonts/optijackson/OPTIJackson.ttf.svg#OPTIJackson") format("svg"),
+		url("../../fonts/optijackson/OPTIJackson.ttf.eot"),
+		url("../../fonts/optijackson/OPTIJackson.ttf.eot?#iefix")
+			format("embedded-opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "kaushan_scriptregular";
+	src: url("../../fonts/kaushan/kaushanscript-regular-webfont.woff2")
+			format("woff2"),
+		url("../../fonts/kaushan/kaushanscript-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+
+//reset and font size
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+	font-size: 62.5%;
+}
+
+body {
+	min-height: 100%;
+	font-family: "uniform-3-regular", Arial, Helvetica, sans-serif;
+	@include center();
+	flex-direction: column;
+}
+
+a {
+	text-decoration: none;
+}
+
+header h1 {
+	color: $text;
+	font-size: 6.5rem;
+	text-transform: lowercase;
+	letter-spacing: -0.4rem;
+}
